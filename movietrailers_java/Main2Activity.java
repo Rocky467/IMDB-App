@@ -20,7 +20,7 @@ public class Main2Activity extends YouTubeBaseActivity implements YouTubePlayer.
         intent  = getIntent();
 
         YouTubePlayerView playerView = findViewById(R.id.youTube);
-        playerView.initialize("AIzaSyAREq3sJkU_l1m7ONdakMc9sjjwZm-KlT8",this);
+        playerView.initialize("API Here",this);
     }
 
     @Override
